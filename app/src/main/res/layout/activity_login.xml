@@ -21,7 +21,7 @@
             android:src="@drawable/logo" />
 
         <EditText
-            android:id="@+id/et-Email"
+            android:id="@+id/et_Email"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -29,7 +29,7 @@
             android:drawableLeft="@drawable/ic_person"
             android:drawablePadding="10dp"
             android:hint="Email/Phone number"
-            android:inputType="text" />
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/Password"
@@ -37,13 +37,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/ic_secure"
             android:drawablePadding="10dp"
             android:hint="4-digit Pin"
-            android:inputType="textPassword" />
+            android:inputType="numberPassword" />
 
         <TextView
-            android:id="@+id/Forget-pwd"
+            android:id="@+id/Forget_pwd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -54,7 +53,7 @@
             android:textSize="15dp" />
 
         <Button
-            android:id="@+id/Login-btn"
+            android:id="@+id/Login_btn"
             android:layout_width="130dp"
             android:layout_height="40dp"
             android:layout_gravity="center"

@@ -21,7 +21,7 @@
             android:src="@drawable/logo" />
 
         <EditText
-            android:id="@+id/et-Email-regt"
+            android:id="@+id/et_Email"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -29,32 +29,30 @@
             android:drawableLeft="@drawable/ic_person"
             android:drawablePadding="10dp"
             android:hint="Email/Phone number"
-            android:inputType="text" />
+            android:inputType="textEmailAddress" />
 
         <EditText
-            android:id="@+id/Password-regt"
+            android:id="@+id/Password"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/ic_secure"
             android:drawablePadding="10dp"
             android:hint="4-digit Pin"
-            android:inputType="textPassword" />
+            android:inputType="numberPassword" />
 
         <EditText
-            android:id="@+id/Retype-pwd-regt"
+            android:id="@+id/Retype_pwd_regt"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:drawableLeft="@drawable/ic_secure"
             android:drawablePadding="10dp"
             android:hint="Retype 4-digit Pin"
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/Register-btn"
+            android:id="@+id/Register_btn"
             android:layout_width="130dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
@@ -90,5 +88,18 @@
             android:layout_marginTop="-37dp"
             android:src="@drawable/facebook"
             android:layout_marginStart="220dp" />
+
+        <TextView
+            android:id="@+id/Login_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/login"
+            android:textColor="#0000EE"
+            android:textSize="20dp" />
+
     </LinearLayout>
 </LinearLayout>
