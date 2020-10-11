@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     String usr = usrname.getText().toString().trim();
-                    Integer pwd = Integer.valueOf(pass.getText().toString().trim());
+                    String pwd = pass.getText().toString().trim()
                     Boolean res = db.checkUser(usr,pwd);
 
                     if (res){
