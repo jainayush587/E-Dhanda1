@@ -41,7 +41,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return res;
     }
 
-    public boolean checkUser (String username, Integer password){
+    public boolean checkUser (String username, String password){
         String[] columns = {COL_1};
         SQLiteDatabase db = getReadableDatabase();
         String selection =  COL_2 + "=?" + " and "+ COL_3 +"=?";
